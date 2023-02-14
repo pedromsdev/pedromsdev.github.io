@@ -1,0 +1,20 @@
+
+
+*{
+    margin: 10px
+    padding: 10px
+}
+
+body {
+    color: antiquewhite;
+    background-image: url("../img/fundo-do-site.png")
+}
+
+div a {
+    text-decoration: inherit;
+    color:antiquewhite
+}
+
+.header {text-align: center;  
+}
+
