@@ -1,10 +1,3 @@
-font-family: ar
-
-
-*{
-    margin : 10px
-    padding: 10px
-}
 
 body {
     color:antiquewhite;
@@ -21,6 +14,7 @@ div a {
 }
 
 .header {
+    font-family: monospace;
     text-align: center;  
 }
 
@@ -48,19 +42,57 @@ div a {
 }
 
 .middle {
+    display: flex;
     margin: auto;
-    width: fit-content;
     width: 50%;
-    border-width: 3px;
     border-style:outset;
-    border-width: 2px;
+    border-width: 0px 1px 3px 1px;
     background-color:rgba(119, 119, 119, 0.116);
-    border-color:rgba(119, 119, 119, 0.158);
-    
+    border-color:rgba(194, 194, 194, 0.144);
 }
 
 .img {
-    padding: auto;
-    width: 120px;
-    height:120px;
+    padding: 5%;
+    width: 50%;
+    height:100%;
+}
+
+#capivara {
+    width: 100%;
+    height: auto;
+    border-radius: 80%;
+}
+
+.sobre-mim {
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+}
+
+#texto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.habilidades {
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    border-style:outset;
+    border-width: 0px 0px 3px 0px;
+    border-color:rgba(194, 194, 194, 0.144);
+    line-height: 40px;
+}
+
+#habilidade {
+    padding-top: 3%;
+    text-align: left;
+}
+
+.hardskill {
+    margin:auto;
+}
+
+.softskill {
+    width: 50%;
+
 }
