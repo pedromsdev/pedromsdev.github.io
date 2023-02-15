@@ -69,11 +69,30 @@ div a {
     padding: 5%;
 }
 
-#sobre {
-    font-family: cursive;
+#texto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#texto{
-    font-family: cursive;
+.habilidades {
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    border-style:outset;
+    border-width: 0px 0px 3px 0px;
+    border-color:rgba(194, 194, 194, 0.144);
+    line-height: 40px;
+}
+
+#habilidade {
+    padding-top: 3%;
+    text-align: left;
+}
+
+.hardskill {
+    margin:auto;
+}
+
+.softskill {
+    width: 50%;
 
 }
